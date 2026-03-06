@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Sri Karpaga vinayagar Transport</title>
+    <meta name="description"
+        content="Contact Sri Karpaga vinayagar Transport for 10 ton lorry booking in Tamil Nadu. Call, WhatsApp, or fill out our online form for an instant quote.">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css?v=2">
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header Top -->
+    <div class="header-top">
+        <div class="container">
+            <div class="header-contact">
+                <span><i class="fas fa-user-circle"></i> <strong data-config="ownerName">Loading...</strong></span>
+                <a href="#" data-config-tel="phoneNumber"><i class="fas fa-phone"></i> <span
+                        data-config="phoneNumber">Loading...</span></a>
+                <a href="mailto:praveen.natarajan.in@gmail.com"><i class="fas fa-envelope"></i> <span
+                        data-config="email">Loading...</span></a>
+            </div>
+            <div class="header-working-hours">
+                <i class="far fa-clock"></i> <span data-config="workingHours">Loading...</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Nav -->
+    <header class="header-main" style="position: sticky;">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-truck-moving text-primary"></i> Sri Karpaga vinayagar
+            </a>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
+            <div class="nav-cta">
+                <a href="#" class="btn btn-primary" data-config-tel="phoneNumber">Call Now</a>
+            </div>
+            <div class="mobile-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </header>
+
+    <div class="page-header"
+        style="background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1519003300449-424ad0405076?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <div class="breadcrumb">
+                <span>Contact Us</span>
+            </div>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="container">
+            <div class="contact-wrap">
+                <!-- Info -->
+                <div>
+                    <h2 class="section-title left">Get In Touch</h2>
+                    <p style="margin-bottom: 30px; color: var(--text-muted); font-size: 1.1rem;">Ready to book a trip or
+                        need a quick price estimate? Connect with us directly via phone, WhatsApp, or the contact form
+                        below. We are available 24/7 for load inquiries.</p>
+
+                    <div class="contact-info-list">
+                        <div class="contact-info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="#" data-config-tel="phoneNumber"
+                                    style="color: var(--text-muted); font-size: 1.1rem; font-weight: 500;"><span
+                                        data-config="phoneNumber">Loading...</span></a>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <a href="#" data-config-wa="whatsappNumber"
+                                    style="color: var(--whatsapp); font-size: 1.1rem; font-weight: 500;">Click to chat
+                                    with owner</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:praveen.natarajan.in@gmail.com"
+                                    style="color: var(--text-muted); font-size: 1.1rem;"><span
+                                        data-config="email">Loading...</span></a>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Service Area Base</h4>
+                                <span style="color: var(--text-muted); font-size: 1.1rem;"
+                                    data-config="address">Loading...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form -->
+                <div class="contact-form">
+                    <h3 style="margin-bottom: 20px;">Send Us an Inquiry</h3>
+                    <form id="contactInquiryForm" action="#" method="POST">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="inqName" name="name" placeholder="Your Name"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" id="inqPhone" name="phone" placeholder="Mobile No."
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="inqLoad" name="load_type"
+                                placeholder="Type of Load (e.g., Construction, Household)">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="inqPickup" name="pickup"
+                                placeholder="Pickup Location" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="inqDrop" name="drop" placeholder="Drop Location"
+                                required>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;"><i
+                                class="fab fa-whatsapp style=" margin-right:5px;""></i> Submit Inquiry via
+                            WhatsApp</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Map -->
+            <div class="map-embed">
+                <!-- Placeholder Map for Tamil Nadu -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3999965.852431604!2d77.10091322051682!3d11.020295627230485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f4cce46f23db%3A0xc3ce7032152b13ed!2sTamil%20Nadu!5e0!3m2!1sen!2sin!4v1716382103456!5m2!1sen!2sin"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="index.html" class="footer-logo">Sri Karpaga vinayagar</a>
+                    <p>Reliable 10 Ton Eicher Transport Service Across Tamil Nadu. Safe, secure, and professional
+                        logistics directly from an experienced owner-driver.</p>
+                </div>
+                <div class="footer-links-widget">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-widget">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Industrial Goods</a></li>
+                        <li><a href="services.html">Construction Material</a></li>
+                        <li><a href="services.html">House Shifting</a></li>
+                        <li><a href="services.html">Parcel Loads</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-phone mr-2"></i> <span data-config="phoneNumber">Loading...</span></li>
+                        <li><i class="fas fa-envelope mr-2"></i> <span data-config="email">Loading...</span></li>
+                        <li><i class="fas fa-map-marker-alt mr-2"></i> <span data-config="address">Loading...</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sri Karpaga vinayagar Transport. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Actions -->
+    <div class="floating-actions">
+        <a href="#" class="float-btn float-wa" data-config-wa="whatsappNumber"><i class="fab fa-whatsapp"></i>
+            WhatsApp</a>
+        <a href="#" class="float-btn float-call" data-config-tel="phoneNumber"><i class="fas fa-phone-alt"></i> Call</a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/config.js?v=2"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- AOS Animation Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+
+</html>
